@@ -1,0 +1,10 @@
+/* Theme Name: GameSquare
+ * Author: Paul
+ * Author URI: unkindest.github.io
+ * Description: Flash game theme
+ * Version: 1.0
+ */
+h1 {
+  display: block;
+  margin: 100px;
+}
