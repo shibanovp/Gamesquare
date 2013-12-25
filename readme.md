@@ -1,0 +1,4 @@
+Gamesquare
+==========
+
+WP theme
