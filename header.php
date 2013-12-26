@@ -16,6 +16,9 @@
 	<div class="container">
 	<div class="five columns clearfix">
 	<a href="<?php echo get_option('home')?>"><img src="<?php bloginfo('template_url')?>/img/logo.png" alt="" title="<?php  bloginfo('title')?>"/></a>
+	<div class="sixteen columns nav-bar">
+		<?php wp_nav_menu(array('container-class'=>'main-nav','container'=>'nav'))?>
+	</div>
 		
 	</div>
 	</div>
