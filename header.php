@@ -14,7 +14,7 @@
 </head>
 <body>
 	<div class="container">
-	<div class="five columns">
+	<div class="five columns clearfix">
 	<a href="<?php echo get_option('home')?>"><img src="<?php bloginfo('template_url')?>/img/logo.png" alt="" title="<?php  bloginfo('title')?>"/></a>
 		
 	</div>
