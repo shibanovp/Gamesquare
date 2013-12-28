@@ -1,0 +1,48 @@
+.nav-bar{
+	background: #5ca5cc;
+	height: 50px;
+	-webkit-box-shadow: 2px 2px 0 #b5b5b5;
+	-moz-box-shadow: 2px 2px 0 #b5b5b5;
+	box-shadow: 2px 2px 0 #b5b5b5;
+}
+.menu-main-nav-container {
+	ul, li{
+		display: inline-block;
+	}
+	a{
+		padding: 0 20px;
+		text-decoration: none;
+		line-height: 50px;
+		color: #fff;
+		font-family: sans-serif;
+		display: block;
+		&:hover{
+			background: #4e91b5;
+		}
+	}
+	ul ul a{
+		width: 135px;
+		line-height: 40px;
+		padding: 0 20px;
+		display: block;
+	}
+	ul li{
+		position: relative;
+		float: left;
+		&:hover > ul{
+			position: absolute;
+			top: 100%;
+			opacity: 1;
+		}
+	}
+	ul ul{
+		position: absolute;
+		top: -9999999px;
+		left: 0;
+		opacity: 0;
+		background:  #5ca5cc;
+		-webkit-box-shadow: 2px 2px 0 #b5b5b5;
+		-moz-box-shadow: 2px 2px 0 #b5b5b5;
+		box-shadow: 2px 2px 0 #b5b5b5;
+	}
+}
